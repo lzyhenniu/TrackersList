@@ -10,14 +10,14 @@ jobs:
       - uses: actions/checkout@v3
 
       - uses: actions/checkout@v3
-      with:
-        repository: 'DeSireFire/animeTrackerList'
-        path: animeTrackerList
+        with:
+          repository: 'DeSireFire/animeTrackerList'
+          path: animeTrackerList
         
       - uses: actions/checkout@v3
-      with:
-        repository: 'XIU2/TrackersListCollection'
-        path: TrackersListCollection
+        with:
+          repository: 'XIU2/TrackersListCollection'
+          path: TrackersListCollection
       
       - name: test
       - run : |
