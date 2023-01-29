@@ -25,7 +25,6 @@ jobs:
       - name: build
         run: |
           bash script.sh
-          echo "test" > test.txt
 
       - name: update
         run: |
