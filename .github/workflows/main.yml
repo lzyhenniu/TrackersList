@@ -20,12 +20,12 @@ jobs:
           path: TrackersListCollection
       
       - name: script
-        run: script.sh
+        run: bash script.sh
       
       - uses: actions/checkout@v3
       - run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add .
-          git commit -m "generated"
+          git add all.txt
+          git commit -m "update: generated from actions"
           git push
