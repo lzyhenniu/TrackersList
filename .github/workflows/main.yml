@@ -7,7 +7,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
 
       - uses: actions/checkout@v3
         with:
@@ -20,10 +19,10 @@ jobs:
           path: TrackersListCollection
       
       - name: build
-        run: bash script.sh
-      
-      - run: |
-        git config --global user.name "Tunglies"
-        git config --global user.email "Tunglies@outlook.com"
-        git commit -a -m "update: generated from workflows"
-        git push
+      - uses: actions/checkout@v3
+        run: |
+          bash script.sh
+          git config --global user.name "Tunglies"
+          git config --global user.email "Tunglies@outlook.com"
+          git commit -a -m "update: generated from workflows"
+          git push
