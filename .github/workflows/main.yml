@@ -21,6 +21,7 @@ jobs:
       
       - name: script
         run: |
+          pwd
           ls animeTrackerList/*.txt
           ls TrackersListCollection/*.txt
           bash script.sh
