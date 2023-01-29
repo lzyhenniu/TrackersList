@@ -5,17 +5,13 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-
       - uses: actions/checkout@v3
-      
-      - name: Pull Main Repository
-        env:
-          Github_AnimeTracker: DeSireFire/animeTrackerList
-          Github_ListTracker: XIU2/TrackersListCollection
 
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      - name: Run a multi-line script
         run: |
-          echo "Hello World"
-          echo $Github_AnimeTracker
-          echo $Github_ListTracker
+          echo Add other actions to build,
+          echo test, and deploy your project.
