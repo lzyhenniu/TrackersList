@@ -1,10 +1,10 @@
 # TrackersList
 
-Tracker 融合，适用于 Bittorrent下载方式，Qbittorrent 和 Bitcomet 等 Tracker 服务器列表。
+Tracker 融合，适用于 Bittorrent 下载方式，Qbittorrent 和 Bitcomet 等 Tracker 服务器列表。
 
 
 
-每日凌晨自动构建更新。
+每日凌晨自动构建更新，自动去重。
 
 # 鸣谢
 
