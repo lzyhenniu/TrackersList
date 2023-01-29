@@ -22,11 +22,12 @@ jobs:
       - name: build
         run: |
           bash script.sh
+          echo "test" >> test.txt
 
       - name: update
         run: |
-          git config --global user.name "Tunglies"
-          git config --global user.email "Tunglies@outlook.com"
-          git add *.txt
-          git commit -m "update: generated from workflows"
-          git push
+          # git config --global user.name "Tunglies"
+          # git config --global user.email "Tunglies@outlook.com"
+          # git add *.txt
+          # git commit -m "update: generated from workflows"
+          # git push
