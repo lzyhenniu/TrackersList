@@ -1,6 +1,6 @@
-echo ls animeTrackerList/*.txt
 for file in $(ls -tr animeTrackerList/*.txt |grep -i -v aria);
 do
+   echo cat $file
    (cat $file | sort | uniq | grep -v "^$" | grep -v "#" | grep -i -E ^"http|udp"; echo)  >> all.txt
 done
 
