@@ -21,6 +21,8 @@ jobs:
       
       - name: script
         run: |
+          ls animeTrackerList/*.txt
+          ls TrackersListCollection/*.txt
           bash script.sh
           cat all.txt
       
