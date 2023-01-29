@@ -22,7 +22,6 @@ jobs:
       - name: script
         run: script.sh
       
-      - name: update
       - uses: actions/checkout@v3
       - run: |
           git config user.name github-actions
