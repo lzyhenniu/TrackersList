@@ -1,3 +1,5 @@
+#!/bin/bash 
+
 "" > all.txt
 
 for file in $(ls -tr animeTrackerList/*.txt |grep -i -v aria);
