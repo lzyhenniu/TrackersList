@@ -20,14 +20,16 @@ jobs:
           path: TrackersListCollection
       
       - name: script
-        run: |
-          pwd
-          ls animeTrackerList/*.txt
-          ls TrackersListCollection/*.txt
-          bash script.sh
-          cat all.txt
+        run: script.sh
       
-      # - name: update
+      - name: update
+        uses: actions/checkout@v3
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "generated"
+          git push
 
 
       # - run : |
