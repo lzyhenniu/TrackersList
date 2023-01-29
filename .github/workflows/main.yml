@@ -6,10 +6,10 @@ jobs:
   Runner:
 
     runs-on: ubuntu-latest
-      env:
     steps:
     - uses: actions/checkout@v3
     - name: Pull Main Repository
+    -env:
         Github_AnimeTracker: DeSireFire/animeTrackerList
         Github_ListTracker: XIU2/TrackersListCollection
     - run: |
