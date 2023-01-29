@@ -9,4 +9,5 @@ do
    (cat $file | sort | uniq | grep -v "^$" | grep -v "#" | grep -i -E ^"http|udp"; echo)  >> temp.txt
 done
 
+rm all.txt
 cat temp.txt | sort | uniq > all.txt
