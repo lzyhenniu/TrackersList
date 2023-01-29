@@ -31,5 +31,5 @@ jobs:
           git config --global user.name "Tunglies"
           git config --global user.email "Tunglies@outlook.com"
           git add *.txt
-          git commit -m "update: generated from workflows"
+          git commit -A -m "update: generated from workflows"
           git push
