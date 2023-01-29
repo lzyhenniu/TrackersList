@@ -22,7 +22,7 @@ jobs:
       - name: build
         run: bash script.sh
       
-      run: |
+      - run: |
         git config --global user.name "Tunglies"
         git config --global user.email "Tunglies@outlook.com"
         git commit -a -m "update: generated from workflows"
