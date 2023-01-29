@@ -19,10 +19,13 @@ jobs:
           repository: 'XIU2/TrackersListCollection'
           path: TrackersListCollection
       
-      - name: test
+      - name: script
         run: |
-          ls animeTrackerList/*.txt
-          ls TrackersListCollection/*.txt
+          bash script.sh
+          cat all.txt
+      
+      # - name: update
+
 
       # - run : |
       #     ehco "hello world"
