@@ -19,9 +19,13 @@ jobs:
           repository: 'XIU2/TrackersListCollection'
           path: TrackersListCollection
       
+      - name: script
+        run: |
+          bash script.sh
+          ls
+      
       - uses: actions/checkout@v3
       - run: |
-          bash script.sh
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add all.txt
