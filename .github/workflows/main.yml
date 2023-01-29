@@ -7,11 +7,11 @@ jobs:
 
     runs-on: ubuntu-latest
       env:
-        Github_AnimeTracker: DeSireFire/animeTrackerList
-        Github_ListTracker: XIU2/TrackersListCollection
     steps:
     - uses: actions/checkout@v3
     - name: Pull Main Repository
+        Github_AnimeTracker: DeSireFire/animeTrackerList
+        Github_ListTracker: XIU2/TrackersListCollection
     - run: |
         echo "Hello World"
         echo $Github_AnimeTracker
