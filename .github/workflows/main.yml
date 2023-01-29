@@ -1,0 +1,18 @@
+name: CI
+
+on: [push]
+
+jobs:
+  Runner:
+
+    runs-on: ubuntu-latest
+      env:
+        Github_AnimeTracker: DeSireFire/animeTrackerList
+        Github_ListTracker: XIU2/TrackersListCollection
+    steps:
+    - uses: actions/checkout@v3
+    - name: Pull Main Repository
+    - run: |
+        echo "Hello World"
+        echo $Github_AnimeTracker
+        echo $Github_ListTracker
