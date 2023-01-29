@@ -20,7 +20,9 @@ jobs:
           path: TrackersListCollection
       
       - name: script
-        run: bash script.sh
+        run: |
+          bash script.sh
+          ls all.txt
       
       - uses: actions/checkout@v3
       - run: |
