@@ -12,4 +12,3 @@ do
 done
 
 cat all.txt | sort | uniq > all.txt
-cat all.txt
