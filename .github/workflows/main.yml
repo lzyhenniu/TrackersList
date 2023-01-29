@@ -26,10 +26,13 @@ jobs:
         run: |
           bash script.sh
 
-      - name: update
+      - name: config
         run: |
           git config --global user.name "Tunglies"
           git config --global user.email "Tunglies@outlook.com"
+          
+      - name: update
+        run: |
           git add all.txt
           git commit -a -m "update: $(date) from workflows"
           git push
