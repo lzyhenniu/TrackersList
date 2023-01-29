@@ -1,8 +1,6 @@
 name: CI
 
-on: 
-  push:
-  workflow_dispatch:
+on: [push]
 
 jobs:
   build:
@@ -12,7 +10,7 @@ jobs:
 
       - uses: actions/checkout@v3
       - name: Pull Main Repository
-      
+
       - env:
           Github_AnimeTracker: DeSireFire/animeTrackerList
           Github_ListTracker: XIU2/TrackersListCollection
