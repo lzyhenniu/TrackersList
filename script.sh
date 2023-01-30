@@ -9,7 +9,8 @@ do
     do
         (
         awk NF $file | sort | uniq |
-        grep -v "^$" | grep -v "#" | grep -i -E ^"http|udp";
+        sed '/#/d' |
+        grep -i -E ^"http|udp";
         echo)  >> $cache_file
     done
 done
