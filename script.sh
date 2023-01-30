@@ -1,17 +1,16 @@
-for file in $(ls -tr animeTrackerList/*.txt |grep -i -v aria);
+cache_dir=".cache"
+cache_file="$cache_dir/cache.txt"
+for folder in $(find $cache_dir -type d -maxdepth 1 ! -name $cache_dir);
 do
-   (cat $file | sort | uniq | grep -v "^$" | grep -v "#" | grep -i -E ^"http|udp"; echo)  >> temp.txt
+    for file in $(
+        ls -tr $folder/*.txt |
+        grep -i -v aria |
+        grep -i -v blacklist);
+    do
+        (
+        awk NF $file | sort | uniq |
+        grep -v "^$" | grep -v "#" | grep -i -E ^"http|udp";
+        echo)  >> $cache_file
+    done
 done
-
-
-for file in $(ls -tr TrackersListCollection/*.txt |grep -i -v aria);
-do
-   (cat $file | sort | uniq | grep -v "^$" | grep -v "#" | grep -i -E ^"http|udp"; echo)  >> temp.txt
-done
-
-for file in $(ls -tr trackerslist/*.txt |grep -i -v aria);
-do
-   (cat $file | sort | uniq | grep -v "^$" | grep -v "#" | grep -i -E ^"http|udp"; echo)  >> temp.txt
-done
-
-cat temp.txt | sort | uniq > all.txt
+awk NF $cache_file | sort | uniq > all.txt
