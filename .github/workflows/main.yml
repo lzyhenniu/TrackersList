@@ -26,6 +26,11 @@ jobs:
         with:
           repository: 'ngosang/trackerslist'
           path: .cache/trackerslist
+      - uses: actions/checkout@v3
+
+        with:
+          repository: 'hezhijie0327/Trackerslist'
+          path: .cache/Trackerslist
       
       - name: build
         run: |

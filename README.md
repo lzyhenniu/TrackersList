@@ -12,8 +12,12 @@ Tracker 融合，适用于 Bittorrent 下载方式，Qbittorrent 和 Bitcomet �
 
 [@XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection)
 
-每日更新 Tracker 列表，通用且好用的 Tracker 解决方案。
+通用且受欢迎的 Tracker 解决方案。
 
 [@ngosang/trackerslist](https://github.com/ngosang/trackerslist)
 
-每日更新 Tracker 列表，公开 Tracker 列表。
+公共 Tracker 列表。
+
+[@hezhijie0327/Trackerslist](https://github.com/hezhijie0327/Trackerslist)
+
+个人用户构建的 Tracker 列表。
