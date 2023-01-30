@@ -39,5 +39,5 @@ jobs:
       - name: update
         run: |
           git add all.txt
-          git commit -a -m "update: $(date) from workflows"
+          git commit -a -m "update: $(date) total: $(awk NF all.txt | wc -l)"
           git push
