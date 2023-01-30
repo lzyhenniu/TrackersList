@@ -2,8 +2,6 @@
 
 Tracker 融合，适用于 Bittorrent 下载方式，Qbittorrent 和 Bitcomet 等 Tracker 服务器列表。
 
-
-
 每日凌晨自动构建更新，自动去重。
 
 # 鸣谢
@@ -15,3 +13,7 @@ Tracker 融合，适用于 Bittorrent 下载方式，Qbittorrent 和 Bitcomet �
 [@XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection)
 
 每日更新 Tracker 列表，通用且好用的 Tracker 解决方案。
+
+[@ngosang/trackerslist](https://github.com/ngosang/trackerslist)
+
+每日更新 Tracker 列表，公开 Tracker 列表。

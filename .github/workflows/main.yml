@@ -21,6 +21,11 @@ jobs:
         with:
           repository: 'XIU2/TrackersListCollection'
           path: TrackersListCollection
+
+      - uses: actions/checkout@v3
+        with:
+          repository: 'ngosang/trackerslist'
+          path: trackerslist
       
       - name: build
         run: |
