@@ -1,8 +1,15 @@
 # TrackersList
 
-Tracker 融合，适用于 Bittorrent 下载方式，Qbittorrent 和 Bitcomet 等 Tracker 服务器列表。
+Tracker 融合，适用于 Bittorrent 下载方式，qBittorrent 和 Bitcomet 等 Tracker 服务器列表。
 
-每日凌晨自动构建更新，自动去重。
+每日 UTC+8 凌晨时自动构建更新，自动去重。
+
+# 使用
+
+举例 [qBittorrent]()(原生) 或 [qBittorrent-Enhanced-Edition](https://github.com/SuperNG6/Docker-qBittorrent-Enhanced-Edition)(支持 tracker 链接订阅)
+
+- 复制 [all.txt](https://raw.githubusercontent.com/Tunglies/TrackersList/main/all.txt) 内容添加至自定义 trackers 列表
+- 复制 [all.txt](https://raw.githubusercontent.com/Tunglies/TrackersList/main/all.txt) 链接添加至 [qBittorrent-Enhanced-Edition](https://github.com/SuperNG6/Docker-qBittorrent-Enhanced-Edition) 自动更新 tracker 列表订阅栏
 
 # 鸣谢
 
