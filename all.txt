@@ -193,9 +193,9 @@ http://38.145.197.80:2710/announce
 http://38.145.197.80:6961/announce
 http://43.139.20.56:6969/announce
 http://45.154.253.10/announce
-http://45.154.253.10:80/announce
 http://45.154.253.4/announce
 http://45.154.253.5/announce
+http://45.154.253.5:80/announce
 http://45.154.253.6/announce
 http://45.154.253.6:80/announce
 http://45.154.253.7/announce
@@ -237,7 +237,6 @@ http://5rt.tace.ru:60889/announce
 http://60-fps.org/bt/announce.php
 http://60-fps.org/bt:80/announce.php
 http://60-fps.org:80/bt:80/announce.php
-http://61.154.116.205:8000/announce
 http://61.216.109.95:6969/announce
 http://61.216.149.33:6969/announce
 http://61.216.166.123:6969/announce
@@ -353,7 +352,6 @@ http://bt.ali213.net:8080/announce
 http://bt.beatrice-raws.org/announce
 http://bt.beatrice-raws.org:80/announce
 http://bt.careland.com.cn:6969/announce
-http://bt.dmhy.net/annonuce
 http://bt.edwardk.info:12891/announce
 http://bt.edwardk.info:2710/announce
 http://bt.edwardk.info:4040/announce
@@ -521,6 +519,7 @@ http://nyaa.tracker.wf:7777/announce
 http://open-v6.demonoid.ch:6969/announce
 http://open.acgnxtracker.com/announce
 http://open.acgnxtracker.com:80/announce
+http://open.acgtracker.com:1096/
 http://open.acgtracker.com:1096/announce
 http://open.lolicon.eu:7777/announce
 http://open.miotracker.com/announce
@@ -823,7 +822,6 @@ http://tracker.pomf.se:80/announce
 http://tracker.pow7.com/announce
 http://tracker.pow7.com:80/announce
 http://tracker.prq.to/announce
-http://tracker.prq.to/announce.php
 http://tracker.prq.to:80/announce
 http://tracker.publicbt.com/announce
 http://tracker.publicbt.com:80/announce
@@ -1166,6 +1164,7 @@ https://tracker.m-team.cc/announce.php
 https://tracker.m-team.cc:443/announce
 https://tracker.m-team.cc:443/announce.php
 https://tracker.madassnews.net/announce
+https://tracker.madassnews.net:443/announce
 https://tracker.mlsub.net/announce
 https://tracker.mlsub.net:443/announce
 https://tracker.moeblog.cn/announce
@@ -1249,6 +1248,7 @@ udp://10.rarbg.com:6969/announce
 udp://103.122.21.50:6969/announce
 udp://104.131.98.232:6969/announce
 udp://104.143.10.186:8000/announce
+udp://104.244.77.14:1337/announce
 udp://107.150.14.110:6969/announce
 udp://107.175.221.194:6969/announce
 udp://107.189.11.58:6969/announce
@@ -1264,6 +1264,7 @@ udp://135.181.197.114:1337/announce
 udp://144.91.88.22:6969/announce
 udp://147job.com:6969/announce
 udp://149.202.88.193:80/announce
+udp://151.80.120.112:2810/announce
 udp://151.80.120.113:2810/announce
 udp://151.80.120.114:2710/announce
 udp://156.234.201.18:80/announce
@@ -1283,6 +1284,7 @@ udp://178.33.73.26:2710/announce
 udp://179.43.155.30:6969/announce
 udp://182.176.139.129:6969/announce
 udp://184.105.151.166:6969/announce
+udp://185.100.85.201:6969/announce
 udp://185.102.219.163:6969/announce
 udp://185.134.22.3:6969/announce
 udp://185.181.60.155:80/announce
@@ -1291,6 +1293,7 @@ udp://185.230.4.150:1337/announce
 udp://185.44.82.25:1337/announce
 udp://185.5.97.139:8089/announce
 udp://185.86.149.205:1337/announce
+udp://186.10.181.153:1337/announce
 udp://188.165.253.109:1337/announce
 udp://191.101.229.236:1337/announce
 udp://192.95.46.115:6969/announce
@@ -1301,7 +1304,6 @@ udp://194.38.21.77:6969/announce
 udp://195.123.209.37:1337/announce
 udp://195.123.209.40:80/announce
 udp://198.100.149.66:6969/announce
-udp://198.91.25.157:8000/announce
 udp://20.100.205.229:6969/announce
 udp://204.79.238.89.in-addr.arpa.manitu.net:6969/announce
 udp://204.zablog.me:6969/announce
@@ -1320,21 +1322,19 @@ udp://37.187.95.112:6969/announce
 udp://37.19.5.155:2710/announce
 udp://37.59.48.81:6969/announce
 udp://45.130.21.69:6969/announce
-udp://45.154.253.10:6969/announce
+udp://45.154.253.5:6969/announce
 udp://45.154.253.6:6969/announce
 udp://45.7.231.191:6969/announce
 udp://45.9.60.30:6969/announce
 udp://46.138.242.240:6969/announce
 udp://46.4.109.148:6969/announce
 udp://47.ip-51-68-199.eu:6969/announce
-udp://5.196.67.51:6969/announce
 udp://5.196.89.204:6969/announce
 udp://5.79.249.77:6969/announce
 udp://5.79.83.193:6969/announce
 udp://504e163a.host.njalla.net:6969/announce
 udp://51.15.26.25:6969/announce
 udp://51.15.3.74:6969/announce
-udp://51.15.41.46:6969/announce
 udp://51.15.79.209:6969/announce
 udp://51.158.144.42:6969/announce
 udp://51.159.54.68:6666/announce
@@ -1343,9 +1343,8 @@ udp://51.68.174.87:6969/announce
 udp://51.81.222.188:6969/announce
 udp://52.58.128.163:6969/announce
 udp://6.beyondth.cn:6969/announce
-udp://61.164.110.198:6969/announce
 udp://61.190.182.107:6969/announce
-udp://61.222.178.254:6969/announce
+udp://61.216.149.33:6969/announce
 udp://62.138.0.158:6969/announce
 udp://62.212.85.66:2710/announce
 udp://65.21.91.32:6969/announce
@@ -1359,8 +1358,10 @@ udp://81.7.10.104:6969/announce
 udp://82.156.24.219:6969/announce
 udp://82.65.115.10:6969/announce
 udp://83.31.199.157:6969/announce
+udp://84.197.224.61:6969/announce
 udp://85.17.19.180:80/announce
 udp://88.99.2.212:6969/announce
+udp://89.234.156.205:451/announce
 udp://89.234.156.205:80/announce
 udp://89.36.216.8:6969/announce
 udp://9.rarbg.com:2710/announce
@@ -1383,7 +1384,6 @@ udp://9.rarbg.to:2770/announce
 udp://9.rarbg.to:2790/announce
 udp://9.rarbg.to:2820/announce
 udp://91.208.206.133:6969/announce
-udp://91.211.5.21:6969/announce
 udp://91.216.110.52:451/announce
 udp://91.216.110.53:451/announce
 udp://91.218.230.81:6969/announce
